@@ -1,0 +1,20 @@
+/* main style */
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 700;
+  }
+  
+ /* header style */
+  .team-profile-header {
+    background-color: rgb(116, 164, 137);
+    padding: 2rem;
+  }
+  
+  /* employee cards */
+  .employee-header {
+    background-color: rgb(127, 184, 152);
+  }
