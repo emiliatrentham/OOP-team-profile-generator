@@ -25,7 +25,6 @@ SO THAT I have quick access to their emails and GitHub profiles
 * [Installation](#installation)
 * [Usage](#usage)
 * [Technology](#technology)
-* [Features](#features)
 * [License](#license)
 * [Socials](#questions)
 
@@ -72,14 +71,6 @@ Technology used in the development of this app:
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://whatwg.org/)
 
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/TR/CSS/#css)
-
-## Features
-
-- Uses express.js to create and run a server
-- Updates a JSON file when creating and deleting profiles
-- Has a functional API
-- Utilizes modularization
-- Uses syntax and paradigms introduced in ES6 and after 
 
 ## License
 
