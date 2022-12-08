@@ -2,7 +2,7 @@
 
 
   ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
- ![Last Commit to Current Repo](https://img.shields.io/github/last-commit/TheInfamousGrim/team-profile-generator)
+ ![Last Commit to Current Repo](https://img.shields.io/github/last-commit/emiliatrentham/OOP-team-profile-generator)
 ![Commits a month](https://img.shields.io/github/commit-activity/m/emiliatrentham/OOP-team-profile-generator)
 
 
