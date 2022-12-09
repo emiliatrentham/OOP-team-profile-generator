@@ -13,7 +13,7 @@ const renderTeam = (team) => {
                     <img src="${manager.imgSrc}">
                     <div class="card-header employee-header">
                         <h2 class="card-title">${manager.name}</h2>
-                        <h3 class="card-title"><i class="fa-solid fa-mug-hot"></i>Manager</h3>
+                        <h3 class="card-title"><i class="fa-solid fa-mug-hot"></i>${manager.title}</h3>
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
@@ -39,7 +39,7 @@ const renderTeam = (team) => {
                     <img src="${engineer.imgSrc}">
                     <div class="card-header employee-header">
                         <h2 class="card-title">${engineer.name}</h2>
-                        <h3 class="card-title"><i class="fa-solid fa-glasses"></i>Engineer</h3>
+                        <h3 class="card-title"><i class="fa-solid fa-glasses"></i>${engineer.title}</h3>
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
@@ -69,7 +69,7 @@ const renderTeam = (team) => {
                     <img src="${intern.imgSrc}">
                     <div class="card-header employee-header">
                         <h2 class="card-title">${intern.name}</h2>
-                        <h3 class="card-title"><i class="fa-solid fa-wrench"></i>Intern</h3>
+                        <h3 class="card-title"><i class="fa-solid fa-wrench"></i>${intern.title}</h3>
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
@@ -84,22 +84,28 @@ const renderTeam = (team) => {
         `;
     html.push(internHtml);
   };
+
   // Create employee loop
   for (
-    let i = 0; i < team.length; i++
+    let i = 0;
+    i < team.length;
+    i++
   ) {
     if (
-      team[i].getRole() === "Manager"
+      team[i].getRole() ===
+      "Manager"
     ) {
       renderManager(team[i]);
     }
     if (
-      team[i].getRole() === "Engineer"
+      team[i].getRole() ===
+      "Engineer"
     ) {
       renderEngineer(team[i]);
     }
     if (
-      team[i].getRole() === "Intern"
+      team[i].getRole() ===
+      "Intern"
     ) {
       renderIntern(team[i]);
     }
@@ -126,7 +132,7 @@ module.exports = (team) => {
         crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metrisch:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -151,5 +157,3 @@ module.exports = (team) => {
 </html>
     `;
 };
-
-
