@@ -1,6 +1,6 @@
-/* main style */
+/* Main style */
 body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Metrisch', sans-serif;
   }
   
   h1,
@@ -8,13 +8,13 @@ body {
     font-weight: 700;
   }
   
- /* header style */
+ /* Header style */
   .team-profile-header {
     background-color: rgb(116, 164, 137);
     padding: 2rem;
   }
   
-  /* employee cards */
+  /* Employee cards */
   .employee-header {
     background-color: rgb(127, 184, 152);
   }
