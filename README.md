@@ -57,7 +57,8 @@ Upon initialization, the application uses the `inquirer` package to prompt the u
 
 Subsequently, the manager's information is added and pushed to the repository, the user is then presented with a menu with options to add more team members, or to finish assembling their team. Lastly, after exiting the application, an HTML file containing the user's answers will be rendered. 
 
-![Gif demo of team-profile-generator](/Assets/demo-GIF.gif)
+![GIF demo of team-profile-generator](/Assets/demo-GIF.gif)
+![Team-profile-generator tests GIF](/Assets/tests-GIF.gif)
 
 ## Technology
 
