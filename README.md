@@ -49,18 +49,19 @@ dev-dependencies:
 - [jest](https://www.npmjs.com/package/jest)
 
 
-To start the application, run `node index.js` in the command line and answer the prompts that generate a new file.
+To start the application, run `node index.js` in the command line and answer the prompts.
 
 
 ## Usage 
+Upon initialization, the application uses the `inquirer` package to prompt the user or manager to enter the following information about the team manager: name, employee ID, email address, image source, and office number.
 
-Upon initialization, the application uses the `inquirer` package to prompt the user or manager to enter the following information about the team manager: name, employee ID, email address, and office number.
+Subsequently, the manager's information is added and pushed to the repository, the user is then presented with a menu with options to add more team members, or to finish assembling their team. Lastly, after exiting the application, an HTML file containing the user's answers will be rendered. 
 
-Subsequently, the manager's information is added and pushed to the repository, the user is then presented with a menu with options to add more team members, i.e., Engineer and/or Intern, or to finish assembling their team. In which case, the user will exit the application and an HTML file containing the user input will be rendered. 
+![Gif demo of team-profile-generator](/Assets/demo-GIF.gif)
 
 ## Technology
 
-Technology used in the development of this app:
+Technology used to develop this app:
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
